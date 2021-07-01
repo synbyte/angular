@@ -1,12 +1,12 @@
 #login {
   padding: 15px;
   display: block;
-  background-image: linear-gradient(aqua 50%, mediumaquamarine 100%);
+  background-image: linear-gradient(rgb(0,100,100) 50%, mediumaquamarine 100%);
   opacity: 100%;
   color: black;
   filter: blur(2px);
   transition: 0.5s;
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 0 auto;
   justify-content: center;
   box-shadow: 0 1px 5px orange;
@@ -29,9 +29,9 @@
   display: block;
 }
 input {
-  background-color: rgb(0, 116, 116);
-  border-radius: 10px;
-  border-color: aquamarine;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: antiquewhite;
   color: aquamarine;
   transition: 0.51s;
   outline: none;

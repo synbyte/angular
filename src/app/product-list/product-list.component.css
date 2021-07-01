@@ -1,0 +1,12 @@
+:root {
+  background-image: linear-gradient(90deg, #fff 50%, #000 100%);
+}
+h2 {
+  color:black;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

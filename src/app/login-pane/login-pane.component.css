@@ -1,0 +1,44 @@
+#login {
+  padding: 15px;
+  display: block;
+  background-image: linear-gradient(aqua 50%, mediumaquamarine 100%);
+  opacity: 100%;
+  color: black;
+  filter: blur(2px);
+  transition: 0.5s;
+  border-radius: 15px;
+  margin: 0 auto;
+  justify-content: center;
+  box-shadow: 0 1px 5px orange;
+}
+#login:hover {
+  opacity: 100%;
+
+  box-shadow: 0 5px 10px orange;
+  filter: blur(0px);
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.block {
+  display: block;
+}
+input {
+  background-color: rgb(0, 116, 116);
+  border-radius: 10px;
+  border-color: aquamarine;
+  color: aquamarine;
+  transition: 0.51s;
+  outline: none;
+  box-shadow: 0 0 0 black;
+}
+input:focus {
+  border-color: orange;
+  border-width: 2px;
+  box-shadow: 1px 1px 5px black;
+}
